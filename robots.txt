@@ -1,1 +1,1 @@
-Sitemap: http://0.0.0.0:4000/ensenanza-cambio-climatico/sitemap.xml
+Sitemap: https://dmcpatrimonio.github.io/ensenanza-cambio-climatico/sitemap.xml
