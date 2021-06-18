@@ -148,6 +148,7 @@ include:
   - _pages
 exclude:
   - _csl
+  - Makefile
   - "*.sublime-project"
   - "*.sublime-workspace"
   - vendor
