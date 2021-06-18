@@ -1,0 +1,118 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_black.eot');
+  src: url('/assets/fonts/unb_pro_black.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_black.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_black.woff') format('woff'),
+       url('/assets/fonts/unb_pro_black.svg#unb_problack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_bold_italic.eot');
+  src: url('/assets/fonts/unb_pro_bold_italic.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_bold_italic.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_bold_italic.woff') format('woff'),
+       url('/assets/fonts/unb_pro_bold_italic.svg#unb_probold_italic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_bold.eot');
+  src: url('/assets/fonts/unb_pro_bold.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_bold.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_bold.woff') format('woff'),
+       url('/assets/fonts/unb_pro_bold.svg#unb_probold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_italic.eot');
+  src: url('/assets/fonts/unb_pro_italic.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_italic.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_italic.woff') format('woff'),
+       url('/assets/fonts/unb_pro_italic.svg#unb_proregular_italic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_light.eot');
+  src: url('/assets/fonts/unb_pro_light.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_light.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_light.woff') format('woff'),
+       url('/assets/fonts/unb_pro_light.svg#unb_prolight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UnB Pro';
+  src: url('/assets/fonts/unb_pro_regular.eot');
+  src: url('/assets/fonts/unb_pro_regular.eot?#iefix') format('embedded-opentype'),
+       url('/assets/fonts/unb_pro_regular.woff2') format('woff2'),
+       url('/assets/fonts/unb_pro_regular.woff') format('woff'),
+       url('/assets/fonts/unb_pro_regular.svg#unb_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+$paragraph-indent: true;
+$sans-serif: 'UnB Pro', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif: $sans-serif;
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+.site-title,
+.post-title,
+h1 {
+  font-weight: 300;
+  .site-subtitle {
+    font-weight: bold;
+  }
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 1em;
+}
+
+span.keywords-title {
+	font-weight: bold;
+}
+
+ul.keywords,
+ul.keywords li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	list-style: none;
+}
+
+ul.list,
+ol.refs {
+	margin-left: 0;
+}
+
+ul.list {
+	list-style: none;
+	text-indent: -2.5rem;
+	& > li:before {
+		content: "– ";
+	}
+}
+
+span.keywords-title {
+	font-weight: bold;
+}
+
+// vim: set shiftwidth=2 tabstop=2 :
