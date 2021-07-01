@@ -1,0 +1,14 @@
+Pedro P. Palazzo:
+  name: "Pedro P. Palazzo"
+  familyName: "Palazzo"
+  givenName: "Pedro P."
+  bio: 
+  avatar: "https://avatars3.githubusercontent.com/u/8295666"
+  email: "palazzo@unb.br"
+  links:
+  - label: "ORCID"
+    icon: "ai fa-fw ai-orcid"
+    url: "https://orcid.org/0000-0002-0187-774X"
+  - label: "Ciência Vitæ"
+    icon: "ai fa-fw ai-ciencia-vitae"
+    url: "https://www.cienciavitae.pt//pt/D91E-0C60-B56B"

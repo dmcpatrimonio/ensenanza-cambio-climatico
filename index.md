@@ -1,6 +1,6 @@
 ---
 title: "Enseñanza de la construcción tradicional y resiliencia climática"
-author: "Pedro P. Palazzo"
+author: Pedro P. Palazzo
 date: 2021-07-15
 layout: single
 ---
@@ -14,7 +14,7 @@ embargo, las capacidades técnicas para dar mantenencia a estructuras
 tradicionales suelen ser muy distintas de la tecnología industrial
 asociada al desarrollo sostenible. Peor aún cuando se habla del infame
 « retrofit energético », el que hace parecer que los edificios
-históricos sean inferiores a la nueva construcción del punto de vista
+históricos sean inferiores a la nueva construcción desde el punto de vista
 ambiental. Estas diferencias no son disparidades superficiales entre
 objetivos convergentes, sino que muestran una incompatibilidad de
 principios entre una cultura del patrimonio a la que interesa lo
