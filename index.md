@@ -1,6 +1,7 @@
 ---
 title: "Enseñanza de la construcción tradicional y resiliencia climática"
 author: Pedro P. Palazzo
+author_profile: true
 date: 2021-07-15
 layout: single
 ---
