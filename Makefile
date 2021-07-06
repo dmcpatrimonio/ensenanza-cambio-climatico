@@ -28,9 +28,9 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 
 # Targets and recipes {{{1
 # ===================
-%.pdf : %.md references.bib latex.yaml \
+%.pdf : %.md references.bib _latex.yaml \
 	| _csl/chicago-fullnote-bibliography-with-ibid.csl
-	$(PANDOC/LATEX) -d _spec/defaults.yaml -o $@ $<
+	$(PANDOC/LATEX) -d _latex.yaml -o $@ $<
 	@echo "$< > $@"
 
 %.docx : %.md $(DEFAULTS) reference.docx \

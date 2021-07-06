@@ -1,0 +1,46 @@
+# This is very specific and may not work for every case.
+# Consider thinning down and, for example, creating a font package.
+from            : "markdown+raw_tex"
+to              : "latex"
+bibliography    : "_bibliography/references.bib"
+cite-method     : "citeproc"
+data-dir        : "_lib"
+fail-if-warnings: false
+file-scope      : true
+filters:
+  - pandoc-crossref
+  - citeproc
+metadata-file: "_metadata.yaml"
+metadata:
+  secnumdepth   : 2
+  papersize     : a4
+number-sections : true
+pdf-engine      : xelatex
+resource-path:
+  - .
+  - "_csl"
+  - "_spec"
+standalone      : true
+variables:
+  documentclass : scrartcl
+  fontfamily    : ebgaramond
+  fontsize      : 12pt
+  indent        : true
+  header-includes:
+    - \usepackage{multicol}
+    - \setlength{\columnsep}{15pt}
+    - \setkomafont{title}{\rmfamily}
+    - \usepackage{csquotes}
+    - \usepackage[overload]{textcase}
+    - \RedeclareSectionCommand[font={\rmfamily\normalfont\large\scshape\MakeLowercase}]{paragraph}
+  include-before:
+    - \let\oldsc\textsc
+    - \renewcommand{\textsc}[1]{\oldsc{\MakeLowercase{#1}}}
+    - \setkomafont{descriptionlabel}{\rmfamily\normalfont}
+  polyglossia-otherlangs:
+    - name: english
+    - name: french
+    - name: german
+    - name: italian
+    - name: latin
+    - name: spanish
