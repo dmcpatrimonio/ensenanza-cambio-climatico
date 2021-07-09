@@ -33,7 +33,7 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 	$(PANDOC/LATEX) -d _latex.yaml -o $@ $<
 	@echo "$< > $@"
 
-%.docx : %.md $(DEFAULTS) reference.docx \
+%.docx : %.md $(DEFAULTS) \
 	| _csl/chicago-fullnote-bibliography-with-ibid.csl
 	$(PANDOC/CROSSREF) -d _spec/defaults.yaml -o $@ $<
 	@echo "$< > $@"
