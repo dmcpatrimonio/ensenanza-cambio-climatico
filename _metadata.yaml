@@ -1,4 +1,4 @@
-csl: "_csl/apa.csl"
+csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl"
 date: "15 de julio de 2021"
 lang: es-ES
 crossrefYaml: "_crossref.yaml"

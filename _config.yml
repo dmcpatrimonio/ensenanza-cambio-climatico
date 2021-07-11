@@ -203,7 +203,7 @@ kramdown:
 pandoc:
   extensions:
     - defaults: "_spec/html.yaml"
-    - csl: "_csl/chicago-fullnote-bibliography-with-ibid.csl"
+    - csl: "https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-note-bibliography.csl"
     - section-divs
 relative_links:
   enabled: true
