@@ -31,11 +31,11 @@ Palabras clave
 Sustainable development, historic preservation, and common building
 practice have diverged in their methods. To resolve this discrepancy,
 even before addressing productive frameworks, we must train architects
-to look holistically to these three aspects. A new kind of higher
+to look holistically at these three aspects. A new kind of higher
 education in architecture is needed for this, one that prioritizes
 natural and local materials as well as values craftsmanship in
 construction. This will work towards overcoming architects' and the
-building industry's default preference for high-environmental footprint
+building industry's default preference for high environmental footprint
 materials, to the benefit of cultural practices tied to their specific
 regions. I put forward here a curriculum outline that can achieve this
 goal by means of teaching vernacular traditions and a holistic view of
@@ -45,8 +45,6 @@ stock.
 Keywords
 ~ Architectural education, craft, industrial materials, vernacular
   practices
-
-----
 
 # Principios #
 
@@ -126,18 +124,20 @@ II. Elementos de composición
 
      Respuestas holísticas al clima regional
      [@correia:2014vernacular]: ventilación natural y gestión de la
-     humedad, los problemas de la impermeabilización y de la
-     estanqueidad para la salud. Tipos flexibles de plantas bajas como
-     expresión de propósitos sociales básicos
-     [@westfall:1991building]. Composición de casas y del espacio
-     público con volúmenes de formas definidas [@krier:1988architectural].
+     humedad, los riesgos de la impermeabilización y de la
+     estanqueidad para la salud humana y la durabilidad de los
+     edificios. El carácter de las plantas bajas como expresión de
+     propósitos sociales básicos [@westfall:1991building]. Composición
+     de casas y del espacio público con volúmenes de formas definidas
+     [@krier:1988architectural].
 
 III. Hacer arquitectura tradicional
 
      Generar « estructuras vivas » [@alexander:2002nature;
-     @cogdell:2019living] en vez de diseñar conceptos. Las cuatro
-     acciones vitruvianas: ordenar, articular, apropiar y proporcionar
-     [@scranton:1974vitruvius43].
+     @cogdell:2019living] en vez de diseñar conceptos « de autor ». El
+     desarrollo incremental de la forma [@bacon:1974design]. Las cuatro
+     operaciones vitruvianas: ordenar, articular, apropiar y
+     proporcionar [@scranton:1974vitruvius43].
 
 ## Segundo ciclo: prácticas ##
 
@@ -160,7 +160,7 @@ V.  Estilo y otras convenciones culturales
 VI. Vegetación y agua
 
     La gestión del paisaje urbano y rural es el reto de la arquitectura
-    [@upton:1991architectural; @muratori:1967civilta]. Adaptación al
+    [@muratori:1967civilta; @upton:1991architectural]. Adaptación al
     clima y soluciones regionales de manejo del agua y de la vegetación.
 
 VII. Urbanización
