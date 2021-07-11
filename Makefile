@@ -15,7 +15,7 @@ vpath %.yaml .:_spec
 vpath default.% .:_lib
 vpath reference.% .:_lib
 
-DEFAULTS := defaults.yaml references.bib
+DEFAULTS := defaults.yaml _metadata.yaml references.bib
 JEKYLL-VERSION := 4.2.0
 PANDOC-VERSION := 2.14
 JEKYLL/PANDOC := docker run --rm -v "`pwd`:/srv/jekyll" \
@@ -29,13 +29,14 @@ PANDOC/LATEX := docker run --rm -v "`pwd`:/data" \
 # Targets and recipes {{{1
 # ===================
 %.pdf : %.md references.bib _latex.yaml \
-	| _csl/chicago-fullnote-bibliography-with-ibid.csl
+	| _csl/apa.csl
 	$(PANDOC/LATEX) -d _latex.yaml -o $@ $<
 	@echo "$< > $@"
 
 %.docx : %.md $(DEFAULTS) \
-	| _csl/chicago-fullnote-bibliography-with-ibid.csl
-	$(PANDOC/CROSSREF) -d _spec/defaults.yaml -o $@ $<
+	| _csl/apa.csl
+	$(PANDOC/CROSSREF) -d _spec/defaults.yaml \
+		-M _metadata.yaml -o $@ $<
 	@echo "$< > $@"
 
 .PHONY : _site
